@@ -15,7 +15,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "mgtx"
+  - git config user.name "zhibeiyou"
   - git config user.email "caihongmin2017@gmail.com"
   - git add .
   - git commit -m "Update docs"
