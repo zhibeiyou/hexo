@@ -1,0 +1,30 @@
+---
+title: hexo本地样式正常部署上去就乱了
+date: 2018-05-07 00:06:14
+tags: [hexo,基础]
+categories: 搭建博客
+keywords: [hexo本地样式]
+---
+我在多端部署hexo时遇到的问题
+ <!--more-->
+ ### 主要原因是你的用户名与你所创建的项目名不一致
+ 1. 如下是hexo根目录下的配置文件_config.yml中deploy下的部分代码：
+ ```
+ repo:
+    github: git@github.com:zhibeiyou/zhibeiyou.github.io.git,master
+    coding: git@git.coding.net:mgtx/mgtx.git,master
+ ``` 
+ 
+ 2. 其中zhibeiyou既是我git的用户名也是项目名，
+ mgtx既是我coding的用户名也是项目名。
+ 无论在哪个平台搞hexo，请保证用户名与项目名一致。
+ 
+ ---
+ 
+ ** 附：不让hexo模板加载，只需在相应的文件头加入如下所示**
+ 
+ ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAABCCAYAAAC8RY+hAAAAAXNSR0IArs4c%0A6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAT2SURB%0AVHhe7Vw7cuJAEG35As58AnDg8gnECWATR5uSQTkyCdmGmzkRiasgsm+wEZzA%0AnMDlwOICduQbaGc0ktAXZoQKd1c9VVG2Rc/Mm/dab3pkgff9/R0RDjDQkoHL%0Ay8u4pff8/IxEakkimhGNx2OTSPf390gkZERrBp6enkwifX5+RldXV/T19UX6%0AJw4w0IaBi3wS6WTCAQbaMHCROhEcqQ19aJMyAEdCLnTCABypExrRCRwJOdAJ%0AA3CkTmhEJ3Ak5EAnDMCROqERnTQ60m4xIM/z6l/TTcZc13GQRCYDuLMtUzd2%0AqFEjsZNEJiDUSDJ1Y4cajsROEpmA4EgydWOHGo7EThKZgOBIMnVjhxqOxE4S%0AmYDgSDJ1Y4cajsROEpmA4EgydWOHGo7EThKZgOBIMnVjh7rZkXYLGuT/+z9Y%0A0I4dfFtAO1oMPBosfmYGm2n1KQpnLMz1aHak3gO9RhFFUUiBbysY17iQ3rdE%0A2/fw7AD1YzajlU9BqLncv14fem5YmOuBGslNTufoUGcw3dK1Y944D/TDDU6u%0AkeofbJtS9uhboyVvaNq0dJbbeAPKr0r5pcI8Y2eWrvRBvP2ykZ4f0UqHrUaF%0AB/Xql5cUV3FMV51SXkZmYBo1zPUof64D6/jNtPaBxPJ8q2PndHMdV9ltpD+2%0Anf8Z/5EdYaSWtoj8IAqLbzT+tZ6oeJpE63IfhXPqzTCI1KoZ+cr30yMMfP1d%0ABEfPRetJHDfZD1Lbn+l3HU1ULBWCm+AnseRHOViWM6+GVbk43tXhNkf0sOTF%0AjFHkr+7ccbQmgg4nkQ5xTySTDCUhkgnukybpt5BczYJXyLUkzD2RbKmzi2uT%0ASLX82V7YCS86ScoXZNZFRYvsMnY2jbRlBzVScVnRy0t/puuC0jFckiKVtrOx%0AWaY2j6TD/GBOwzR090Fv6vfJXXYm62R4pxqrJeLf/nFxV/NlGm/Jny36hOc0%0AfDvrJ8vcfqnefWiWtRbpe2lZ0I81UbsSct2WnFgj6XpCDU4BqcUp25WoK6p2%0A2sN5QD5tafa4oMVfXTxM6E/N7uXto7pNN5P36aZvy6iEODf+bGc0XBZ3iEYP%0AxfvY3MLpXd/GXamVvrCT1CuUeS33F7floKc5UuIg/u9flG1KVKFX60gakNrC%0AvuhJrWZVN8q9r6+UQmGY9OkHL5TlXf9GpVX+UFf2eKboqjv6dFPO7aSgrxbc%0A3RTbVvy78mfRabwRKd3z6z38UZesOm6vjU7DeXxLZzUqbSiyTU6Loru+Rkrr%0AF7POVl75wru0JuuifJ0UzHG7SoGb1EGHivekCN+P21D4FsZWMWtTvB8cNz+f%0A2uK7m2I7LVxr+cuPa8WfvR5N4+Y3NOWNTRFju02Gpzs951fb6C2ndixtq8tq%0AKWRxzSGEIwMn1kiuU9rQo6mwaY4kciWPdfxpNZLt1LK1N7kxaNsOcWIYwCdt%0AxUjFG+h5HIk3B0DXAQNnrpE6QIwuWDIAR2IpizxQcCR5mrFEDEdiKYs8UHAk%0AeZqxRAxHYimLPFBwJHmasUQMR2IpizxQcCR5mrFEjG+1ZSmLPFD4X5s8zVgi%0ARo3EUhZ5oFAjydOMJWI4EktZ5IGCI8nTjCViOBJLWeSBgiPJ04wl4vhTJCyR%0AAZQoBi5EoQVYtgwgkdhKIwsYEkmWXmzRIpHYSiMLGBJJll5s0SKR2EojCxgS%0ASZZebNH+Bwf3x21xabxVAAAAAElFTkSuQmCC)
+ 
+ ** 这个在百度收录网站时，我们选择html验证，在baidu_verify_McF0lk2UPu.html
+ 中文件头加入以上代码，就不会被hexo模板默认加载所干扰，也就可以通过网站验证了。 **
+ 

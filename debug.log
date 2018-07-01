@@ -1,0 +1,27 @@
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Hexo version: \u001b[35m3.7.1\u001b[39m","time":"2018-06-13T16:42:06.395Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Working directory: \u001b[35mF:\\blog\\\u001b[39m","time":"2018-06-13T16:42:06.434Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Config loaded: \u001b[35mF:\\blog\\_config.yml\u001b[39m","time":"2018-06-13T16:42:08.009Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-06-13T16:42:08.750Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-baidu-url-submit\u001b[39m","time":"2018-06-13T16:42:08.828Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-06-13T16:42:09.296Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-baidu-sitemap\u001b[39m","time":"2018-06-13T16:42:09.399Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-06-13T16:42:09.428Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-06-13T16:42:09.479Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-sitemap\u001b[39m","time":"2018-06-13T16:42:09.502Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-06-13T16:42:09.516Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-06-13T16:42:09.636Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-06-13T16:42:09.663Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-06-13T16:42:11.929Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-06-13T16:42:11.998Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\tags\\center-quote.js\u001b[39m","time":"2018-06-13T16:42:12.114Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\merge.js\u001b[39m","time":"2018-06-13T16:42:12.121Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\tags\\button.js\u001b[39m","time":"2018-06-13T16:42:12.123Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\merge-configs.js\u001b[39m","time":"2018-06-13T16:42:12.131Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\tags\\label.js\u001b[39m","time":"2018-06-13T16:42:12.133Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\tags\\full-image.js\u001b[39m","time":"2018-06-13T16:42:12.134Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\tags\\note.js\u001b[39m","time":"2018-06-13T16:42:12.136Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\tags\\exturl.js\u001b[39m","time":"2018-06-13T16:42:12.138Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\tags\\lazy-image.js\u001b[39m","time":"2018-06-13T16:42:12.141Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\tags\\tabs.js\u001b[39m","time":"2018-06-13T16:42:12.144Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Script loaded: \u001b[35mthemes\\next\\scripts\\tags\\group-pictures.js\u001b[39m","time":"2018-06-13T16:42:12.148Z","v":0}
+{"name":"hexo","hostname":"HM-PC","pid":5448,"level":20,"msg":"Database saved","time":"2018-06-13T16:42:12.185Z","v":0}

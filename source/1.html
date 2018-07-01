@@ -1,0 +1,47 @@
+---
+layout: false
+---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title></title>
+    <style type="text/css">
+        .d01{
+            width: 600px;
+            height: 371px;
+
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="d01">服务条款....</div>
+    <input id="register" type="submit" value="请阅读该服务条款(10)" disabled="disabled">
+</body>
+</html>
+<script type="text/javascript">
+    //要想做出一个动态的效果。js代码控制其逻辑，DOM对象控制要对象显示的效果
+
+    //注册按钮倒计时期间且不可点击，每隔一秒显示的剩余时间减1
+    //当注册按钮倒计时为0时，该按钮变为注册，且可以点击
+
+    //1、获取要操作的元素对象
+    var register = document.getElementById("register");
+
+    //2、需要一个定时器，用来每秒刷新剩余时间
+    var remainTime = 10;
+    var intervalId = setInterval(function(){
+        register.value="请阅读该服务条款("+remainTime+")";
+        remainTime--;
+
+        //判断如果倒计时为0则结束定时器.并将按钮显示为注册且可点击
+        if (remainTime==0){
+            register.value="注册";
+            register.disabled=false;
+            clearInterval(intervalId);
+        }
+    },1000);//定时器用了就要关闭，否则它将一直循环。
+
+</script>
