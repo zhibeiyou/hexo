@@ -9,12 +9,21 @@ keywords: [hexo,github,npm,基础]
  <!--more-->
  
 
- ### 搭建博客记录(1)文章转载于：
+ ### 搭建博客记录(1)参考：
  [http://www.cnblogs.com/fengxiongZz/p/7707219.html](http://www.cnblogs.com/fengxiongZz/p/7707219.html)
 
- ### 搭建博客记录(2)文章转载于：
+ ### 搭建博客记录(2)参考：
  [http://www.cnblogs.com/fengxiongZz/p/7707568.html](http://www.cnblogs.com/fengxiongZz/p/7707568.html)
+ 
+ ### 搭建博客记录(3)参考：
+ [https://blog.csdn.net/sunshine940326/article/details/70936988](https://blog.csdn.net/sunshine940326/article/details/70936988)
 
+ ### 搭建博客记录(4)参考：
+ [https://blog.csdn.net/woblog/article/details/51319364](https://blog.csdn.net/woblog/article/details/51319364)
+ 
+ ### 搭建博客记录(5)参考：
+ [https://blog.csdn.net/qq_33699981/article/details/72716951](https://blog.csdn.net/qq_33699981/article/details/72716951)
+ 
  ### 搭建心得
  1. 使用leancloud云储存做文章阅读次数的存放
  2. 使用来必应做博客评论模块
